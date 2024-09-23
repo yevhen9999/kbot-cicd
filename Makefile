@@ -1,5 +1,5 @@
 APP=$(shell basename $(shell git remote get-url origin))
-REGISTRY=yevhen157
+REGISTRY=ghcr.io/aproject
 VERSION=$(shell git describe --tags --abbrev=0)-$(shell git rev-parse --short HEAD)
 TARGETOS?=linux
 TARGETARCH?=amd64
